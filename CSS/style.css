@@ -1,0 +1,382 @@
+/*Global CSS Start*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Ubuntu', sans-serif;
+   text-rendering: optimizeLegibility;
+}
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.row{
+   width: 100%;
+}
+.col-1 {
+   width: 8.33%;
+   float: left;
+}
+.col-2 {
+  width: 16.67%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.67%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.67%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.67%;
+  float: left;
+}
+.col-12 {
+   width: 100%;
+   float: left;
+} 
+.image-fluid{
+   width: 100%;
+}
+.container-fluid{
+   width: 100%;
+}
+
+/*Global CSS End*/
+
+
+/*Main Banner Section Start*/
+
+header{
+   background: url(../images/banner.jpg);
+   height: 600px;
+   background-size: cover;
+   position: relative;
+}
+header .logo{
+   margin-top: 20px;
+   height: 50px;
+   width: auto;
+   float: left;
+}
+header .main-nav{
+  float: right;
+  margin: 40px 60px 0px 0px;
+}
+header .main-nav li{
+   list-style-type:none;
+   display: inline-block;
+   transition: all ease-in-out .4s;
+}
+header .main-nav li a{
+   font-size: 18px;
+   color: #fff;
+   text-decoration: none;
+   margin-Right: 15px;
+}
+header .main-nav:hover li{
+   opacity: .2;
+   filter: blur(0.01000rem);
+}
+header .main-nav li:hover{
+   opacity:1;
+   filter: blur(0rem);
+}
+.main-nav .btn-login{
+   color: #3352f1;
+   background-color: #fff;
+   border-radius:25px;
+   padding: 13px 26px;
+   transition: .5s;
+}
+.main-nav .btn-login:hover{
+   background-color:#727CED;
+   color: whitesmoke;
+}
+header .hero-area{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+header .hero-area h1{
+   margin-top: 60px;
+   color: #fff;
+   font-size: 50px;
+}
+header .hero-area .btn-Get-Started{
+   margin-top: 85px;
+   display: inline-block;
+   text-decoration: none;
+   color:  #3352f1;
+   background-color: #fff;
+   padding: 15px 30px;
+   border-radius: 25px;
+   transition: .5s;
+}
+header .hero-area .btn-Get-Started:hover{
+   background-color: #3352f1;
+   color: #fff;
+}
+/*Main Banner Section end*/
+
+/*About us section Start*/
+.about-us{
+   height: 700px;
+}
+.about-us .content{
+    text-align: right;
+    margin: 75px 0px 0px 115px;
+}
+.about-us .content h6{
+    margin-right: 110px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: .6;
+}
+.about-us .content h2{
+    margin-right: 103px;
+    font-size: 53px;
+}
+.about-us .content h4{
+    margin-top: 50px;
+    font-size: 21px;
+}
+.about-us .content p{
+    line-height: 1.4;
+    margin-top: 10px;
+    font-size: 17px;
+    opacity: .8;
+}
+.about-us .content img{
+   margin-top: 51px;
+   padding-left: 10px;
+   display:block;
+}
+.about-us-img{
+   background: url(../images/abt-us-image.jpg);
+   height: 700px;
+   background-size: cover;
+}
+/*About us section End*/
+
+/*Service menu Section Start*/
+   .service-menu{
+      height: 600px;
+      background-color: #faf8f5;
+      background-position: center;
+      background-size: cover;
+   }
+   .service-menu .service-nav-bar{
+      margin: 113px 0 0 100px;
+   }
+   .service-menu .service-nav-bar li{
+      list-style-type: none;
+      display: block;
+      margin: 13px 175px 35px 79px;
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 14px;
+      transition: .4s;
+   }
+   .service-menu .service-nav-bar li:hover{
+      border: 1px solid#3352f1;
+      background-color: #fff;
+      box-shadow: 0px 0px 5px;
+   }
+   .service-menu .service-nav-bar li a{
+      text-decoration: none;
+      font-weight: bold;
+      color: #727CED;
+
+   }
+
+
+   .service-menu .service-hero-area{
+      text-align:left;
+      margin: 163px 120px 123px 0px;
+   }
+   .service-menu .service-hero-area h6{
+    font-size: 18px;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+   .service-menu .service-hero-area h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+   .service-menu .service-hero-area p{
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+/*Service menu Section End*/
+
+/*Offering Services Section Start*/
+  .offering-services{
+     height: 700px;
+  }
+  .offering-services h2{
+     margin-top: 50px;
+     font-size: 45px;
+     text-align: center;
+  }
+  .offering-services h6{
+     margin-top: 20px;
+     font-size: 15px;
+     text-align: center;
+     opacity: .6;
+     line-height: 1.6;
+  }
+  .offering-services .service-content{
+     margin: 30px 0px 0px 55px;
+     padding: 20px;
+  }
+  .offering-services .service-content h4{
+     margin-top: 20px;
+  }
+  .offering-services .service-content p{
+     margin-top: 15px;
+     line-height: 1.4;
+  }
+/*Offering Services Section end*/
+
+/*Sub Banner Section Start */
+ .sub-banner{
+    background: url(../images/sub-banner.png);
+    height: 400px;
+    position: relative;
+ }
+ .sub-banner h2{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 45px;
+    color: #fefeff;
+}
+ .sub-banner p{
+    margin: 31px 160px 0px 160px;
+    text-align: center;
+    font-size: 17px;
+    color: #fefeff;
+    line-height: 1.7;
+}
+ .sub-banner .sub-banner-btn{
+    margin-top: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+}
+.sub-banner .sub-banner-btn a{
+   text-decoration: none;
+   background-color: #fff;
+   color: #3352f1;
+   border-radius: 25px;
+   padding: 15px;
+   transition: .3s;
+}
+.sub-banner .sub-banner-btn a:hover{
+   background-color:#3352f1;
+   color: #fefeff;
+}
+ .sub-banner h6{
+    font-size: 15px;
+    color: #fefeff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100px, 77px);
+}
+/*Sub Banner Section End */
+
+/*Company Section Start*/
+.company-logo{
+   height: 600px;
+}
+.company-logo .comp-logos{margin-top: 55px;}
+.company-logo .comp-logos img{
+   margin: 20px;
+   border: 1px solid #ddd;
+   transition: .4s;
+}
+.company-logo .comp-logos img:hover{
+   box-shadow: 0px 0px 5px;
+}
+.company-logo .company-hero-area{
+   margin-top: 180px;
+}
+.company-logo .company-hero-area h6{
+    font-size: 17px;
+    opacity: .6;
+}
+.company-logo .company-hero-area h2{
+    margin-top: 20px;
+    font-size: 45px;
+}
+.company-logo .company-hero-area p{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/*Company Section End*/
+
+/*Footer Section Start*/
+.footer{
+   height: 400px;
+   background: url(../images/footer-bg.png);
+   background-size: cover;
+}
+.footer .footer-area{
+   margin: 80px 50px 0px 100px;
+}
+.footer ul{
+    margin-top: 94px;
+}
+.footer .list-header{
+   font-weight: bold
+}
+.footer ul li {
+   list-style-type:none;
+    margin-top: 20px;
+    color: #fefeff;
+}
+.footer ul li a{
+   text-decoration: none;
+   color: #fefeff;
+}
+.footer p{
+    margin-top: 20px;
+    color: #fefeff;
+}
+/*Footer Section End*/
+
